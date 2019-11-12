@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+body     {
+    background-image: url('vote.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+<body>
+    <form>
+        <h1 style="font-size: 60px;color:black;text-align:center;">Voting Form:</h1>
+        <hr><h1>FIll this:</h1>
+        <fieldset style="color: rebeccapurple;">
+            <legend>Personal Information</legend>
+        Firstname:<br>
+        <input type="text" name="firstname:" autofocus>
+        <br>
+        Lastname:<br>
+        <input type="text" name="lastname:">
+        <br>National Code:
+        <br><input type="password" name="psw" required>
+        
+        <br>Birth Date:<br>
+        <input type="date" name="Age">
+        </fieldset><br><br>
+        <fieldset style="color: red;">
+            <legend>Vote Details:</legend>
+        <h3>Select You's Province please:</h3>
+        <select name="region">
+            <option value="simdh">Sindh</option>
+            <option value="Punjab">Punjab</option>
+            <option value="KPK">KPK</option>
+            <option value="Balochistan">Balochistan</option>
+            </select><br>
+
+            <h2>I am Voting For:</h2>
+        <input type="radio" name="none" value="Obama" checked>Obama<br>
+        <input type="radio" name="none" value="Trump">Trump<br>
+        <input type="radio" name="none" value="Imran khan">ImranKhan<br>
+        </fieldset><br>
+
+        Email:<br>
+        <input type="email" name="email">
+        <br><h4>Comments:</h4>
+        <textarea cols="50" rows="15" placeholder="comment here"></textarea><br>
+        <input type="submit" value="Submit">
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
